@@ -1,8 +1,8 @@
-folder = 'D:\Machine learning\DECIM';   %upisi ime fajla gde ces da zapamtis folder i ubacujes slike
-n = 1;     %podesi indeks do kog se ucitavaju slike
-for k = 1 : n%od kog do kog indeksa se koriste slike
-    baseFileName = sprintf('P292.JPG', k); %oblik imena slike
-    display(baseFileName);            %cisto da vidis dal si lepe slike ubacio
+folder = 'D:\Machine learning\DECIM';   %file where images are stored
+n = 1;     
+for k = 1 : n
+    baseFileName = sprintf('P292.JPG', k); 
+    display(baseFileName);           
     fullFileName = fullfile(folder, baseFileName);
     A = double(imread(fullFileName));    
     A=A/255; 
@@ -26,5 +26,4 @@ for k = 1 : n%od kog do kog indeksa se koriste slike
     p=mean2(sivaSlika);
     crnaSlika=im2bw(sivaSlika,p);
      imwrite(crnaSlika,'D:\Machine learning\DECIM\P292K.PNG');
-    fprintf('opaaa KRAJ\n'); %obradjena slika :D
 end 
