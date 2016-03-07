@@ -3,4 +3,4 @@
 <div>
 Here i represent a pice of code written in matlab which i used for binarization of images. The main idea is to use multifractal analysis for microscopic images, made with biopsy of the patient's bone tissue, whose tumour has metastasized on the bones.
 </div>
-![alt tag](https://www.dropbox.com/s/5uya4w1xodp5qy0/binarized%20images.png?dl=0)
+![K_Means_Algorithm_Binarization_Of_Image](my binarized images.png)
